@@ -11,6 +11,8 @@ public class SwingWindow extends JFrame {
 	{
 		this.setSize(500,500);
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		
+		this.add(buttonClose);
 	}
 	public static void main(String[] args) {
 		SwingWindow okno = new SwingWindow();
