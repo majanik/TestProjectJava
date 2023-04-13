@@ -15,6 +15,8 @@ public class SwingWindow extends JFrame {
 	
 	SwingWindow()
 	{
+		
+		
 		this.setSize(500,500);
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
